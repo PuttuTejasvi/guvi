@@ -1,0 +1,97 @@
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+      background-image: url("../assests/galaxy1.jpg");
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+       \color: white;
+    }
+/* Style for the container */
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  padding: 20px;
+  margin: 100px auto 0;
+ 
+}
+h2 {
+  color: #fff;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+/* Style for the form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for form groups */
+.form-group {
+  display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      width: 100%;
+      max-width: 400px;
+}
+
+/* Style for labels */
+label {
+  color: #fff;
+  font-weight: bold;
+      margin-bottom: 0.5rem;
+}
+
+/* Style for inputs */
+input[type="text"],input[type="password"]{
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #333;
+      border-bottom: 2px solid #ccc;
+      font-size: 16px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for login button */
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+#save {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#save:hover {
+  background-color: #3e8e41;
+}
+.forgotpassword{
+  text-align: center;
+  margin-top: 10px;
+}
+.forgotpassword a{
+  color: #fff;
+}
